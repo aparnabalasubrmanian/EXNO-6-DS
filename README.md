@@ -180,8 +180,9 @@ sns.violinplot(x=tip["total_bill"])
 
 ```
 sns.kdeplot(data=tips,x='total_bill',hue='time',multiple='fill',linewidth=3,palette='Set2',alpha=0.8)
-```![329443310-8b977776-0917-4842-b956-056cf94b90aa](https://github.com/aparnabalasubrmanian/EXNO-6-DS/assets/123351172/8e0fc991-b62d-4940-9f3a-394f6e5a65d7)
-
+```
+![329443310-8b977776-0917-4842-b956-056cf94b90aa](https://github.com/aparnabalasubrmanian/EXNO-6-DS/assets/123351172/8e0fc991-b62d-4940-9f3a-394f6e5a65d7)
+```
 
 
 
@@ -190,10 +191,9 @@ sns.histplot(data=marks, bins=10, kde=True, stat='count', cumulative=False, mult
 plt.xlabel('Marks')
 plt.ylabel('Density')
 plt.title('Histogram of students Marks')
-```
-![329443324-8f459c84-31d1-4935-858e-83ff06c847a7](https://github.com/aparnabalasubrmanian/EXNO-6-DS/assets/123351172/c958551a-bf2e-4133-89bb-0c4d0b883713)
+![329443324-8f459c84-31d1-4935-858e-83ff06c847a7](https://github.com/aparnabalasubrmanian/EXNO-6-DS/assets/123351172/74b09876-70d9-40fe-9098-f0e132159598)
+![329443343-a5cdf3b7-6605-4f7e-99b5-84700d8b8920](https://github.com/aparnabalasubrmanian/EXNO-6-DS/assets/123351172/25950562-fcf2-41b8-b469-4ac90d7ca843)
 
-![329443343-a5cdf3b7-6605-4f7e-99b5-84700d8b8920](https://github.com/aparnabalasubrmanian/EXNO-6-DS/assets/123351172/a5686968-07f4-41fa-a490-e6a70a30541f)
 
 # Result:
 Thus, the Data Visualization using seaborn python library for the given data is implemented successfully
