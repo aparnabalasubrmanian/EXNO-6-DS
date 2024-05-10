@@ -186,11 +186,12 @@ sns.kdeplot(data=tips,x='total_bill',hue='time',multiple='fill',linewidth=3,pale
 
 
 
-```
+
 sns.histplot(data=marks, bins=10, kde=True, stat='count', cumulative=False, multiple='stack', element='bars', palette='Set1', shrink=0.7)
 plt.xlabel('Marks')
 plt.ylabel('Density')
 plt.title('Histogram of students Marks')
+```
 ![329443324-8f459c84-31d1-4935-858e-83ff06c847a7](https://github.com/aparnabalasubrmanian/EXNO-6-DS/assets/123351172/74b09876-70d9-40fe-9098-f0e132159598)
 ![329443343-a5cdf3b7-6605-4f7e-99b5-84700d8b8920](https://github.com/aparnabalasubrmanian/EXNO-6-DS/assets/123351172/25950562-fcf2-41b8-b469-4ac90d7ca843)
 
